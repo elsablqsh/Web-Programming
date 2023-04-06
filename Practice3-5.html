@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>도형 서식 품 만들기</title>
+<head>
+    <body>
+        <h3>도형 서식 품 만들기</h3>
+        <hr>
+        <form>
+            <fieldset>
+                <legend>도형 서식 입력</legend>
+                <p><label for="my-select">선종류</label>
+                    <select id="선정류" name="선종류" size="3cm">
+                       <option value="option1">선없음</option>
+                       <option value="option2">실선</option>
+                       <option value="option3">점선</option>
+                    </select>
+                    </p>
+                    <p>
+                      <label for="선두께">선두께</label>
+                    <input type="text" id="my-input" name="my-input" style="width: 1.5cm;">
+                    <label for="my-color-picker">선색</label>
+                    <input type="color" id="my-color-picker" name="my-color-picker" value="#00BFFF">
+                    </p>
+                    <p>
+                      <label for="my-range-input">투명도 (0~100)</label>
+                    <input type="range" id="my-range-input" name="my-range-input" min="0" max="100" step="1" value="50">
+                    </p>
+            </fieldset>
+        </form>
+    </body>
+</head>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head><title>셀렉터 만들기</title>
+        <style>
+            h3, li {color: rgb(66, 35, 0);}
+            div >div > strong {background : rgb(26, 120, 228);}
+            ul strong {color: rosybrown;}
+            .warning{color: rgb(4, 69, 122);}
+            body.main {background-color: rgb(221, 217, 214);}
+            #list {background-color: #c5d8ff;}
+            #list span {color : rgb(144, 197, 240)}
+            h3 ::first-letter {color : burlywood;}
+            li:hover {background: rgb(0, 225, 255);}
+        </style>
+    </head>
+    <body class="main">
+        <h3> Web Programming</h3>
+        <hr>
+        <div>
+            <div>2학기<strong>학습 내용입니당!!!!</strong></div>
+            <ul id="list">
+                <li><span>HTML5</span></li>
+                <li><strong>CSS</strong></li>
+                <li>JAVASCRIPT</li>
+            </ul>
+            <div class = "warning">60점 이하는 F!</div>
+        </div>
+    </body>
+</html>
